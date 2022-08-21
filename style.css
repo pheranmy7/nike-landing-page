@@ -1,0 +1,92 @@
+/* Font-families */
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;500");
+@import url("https://fonts.googleapis.com/css2?family=poppings:wght@900&display=swap");
+
+/* Univeral styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "be vietnam";
+    overflow: hidden; 
+}
+
+html {
+    font-size: 10px;
+    background: #bf0a30;
+    color: #fff;s
+}
+
+/* Navbar Styling */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+}
+
+nav img{
+    margin-left: 100px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left: 250px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 70px;
+}
+
+nav ul li a:hover{ 
+    opacity: .6; 
+}
+
+/* Main Header Content Styling */
+.header_main{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 400px 1fr;
+    margin-left: 100px;
+}
+
+.header_main_content-h1{
+    font-size: 63px;
+}
+
+.header_main_content-p{
+    font-size: 16px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.header_main button{
+    font-size: 25px;
+    padding: 14px 65px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 50px;
+    background-color: #fa8072;
+}
+
+.cta:hover{
+    opacity: .6;
+}
+
+.header_main img{
+    margin-left: -120px;
+    margin-top: -10px;
+    width: 700px;
+    height: 500px;
+}
